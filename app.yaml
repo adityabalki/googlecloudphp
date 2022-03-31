@@ -5,3 +5,5 @@ runtime: php74
 # run a long-running PHP script as a worker process (e.g. "php worker.php").
 #
 # entrypoint: serve index.php
+- url: /css
+  static_dir: css
