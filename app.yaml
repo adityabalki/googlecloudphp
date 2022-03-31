@@ -8,3 +8,15 @@ runtime: php74
 handlers:
 - url: /css
   static_dir: css
+
+- url: /images
+  static_dir: images
+  
+- url: /js
+  static_dir: js
+  
+- url: /fonts
+  static_dir: fonts
+  
+- url: /scss
+  static_dir: scss
