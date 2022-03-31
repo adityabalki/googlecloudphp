@@ -4,7 +4,7 @@ runtime: php74
 # serve a custom PHP front controller (e.g. "serve backend/index.php") or to
 # run a long-running PHP script as a worker process (e.g. "php worker.php").
 #
-# entrypoint: serve index.php
+# entrypoint: serve index.html
 handlers:
 - url: /css
   static_dir: css
